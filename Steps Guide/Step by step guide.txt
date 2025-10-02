@@ -1,0 +1,24 @@
+## Creating database backup:
+1. On the left panel click the "zomato" database.
+2. Then on the top middle of the screen look for the "export" button and click it.
+3. In the Export method, click the "Quick" option. Select "SQL" as the Format. Then click export.
+4. Then save/download the SQL file in any location but remember that location.
+
+## Importing a database backup:
+1. Create a new database named "zomato". (Delete any existing "zomato" database)
+2. Click on the "zomato" database.
+3. On the top middle panel click on the "import" button.
+4. In the "File to import" section choose the sql file you have downloaded/exported.
+(optional: scroll down and select the "SQL" as format while importing)
+5. Finally select the "import" button at the bottom of the screen.
+
+## Starting the project:
+1. Copy the project files to the "C:\xampp\htdocs\" folder.
+2. Start the XAMPP Control panel.
+3. Start the "Apache" and "MySQL" services.
+4. Then open a browser and enter "localhost/zomato" to access the main website.
+5. Enter the "localhost/zomato/admin" to access the admin panel.
+
+## Admin Credentials:
+email: admin@gmail.com
+pass: 123456
